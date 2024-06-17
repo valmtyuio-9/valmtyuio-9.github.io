@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/compu08/Downloads/galletas%20diferentes%20(2).htm -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias sin límites</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #fcd2f3;
+            color: #f5a2cf;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 999;
+        }
+        .main-title {
+            font-family: 'Bubble Bobble';
+            font-size: 2em;
+            text-shadow: 2px 2px 2px #b68a51;
+        }
+        .sub-title {
+            font-family: 'Bubble Bobble', Times, serif;
+            font-size: 2em;
+            text-shadow: 2px 2px 2px #b68a51;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            padding-top: 80px;
+        }
+        .product {
+            width: 30%;
+            margin-bottom: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            box-sizing: border-box;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .product-details {
+            padding: 20px;
+            text-align: center;
+        }
+        .product-details h2 {
+            margin-top: 0;
+        }
+        .hidden {
+            display: none;
+        }
+        .details-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .form-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .form-group textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #f5a2cf;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #e081af;
+        }
+        .mission-vision-values {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .mission-vision-values h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .mission-vision-values p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img class="logo" src="file:///C:/Users/compu08/Downloads/Logo%20de%20Delicias%20sin%20l%C3%ADmites.png" alt="Logo de Delicias sin límites">
+        <h1><span class="main-title">Delicias sin</span> <span class="sub-title">límites</span></h1>
+    </header>
+
+    <div class="mission-vision-values">
+        <h2>Misión, Visión, Valores y Quiénes Somos</h2>
+        <h3>Misión</h3>
+        <p>Nuestra misión es ofrecer productos saludables y deliciosos elaborados con ingredientes naturales y de alta calidad, promoviendo un estilo de vida consciente y sostenible.</p>
+        
+        <h3>Visión</h3>
+        <p>Aspiramos a ser líderes en la industria de alimentos saludables, expandiendo nuestra oferta y llegando a más personas que valoran la calidad y el bienestar.</p>
+        
+        <h3>Valores</h3>
+        <ul>
+            <li>Calidad: Nos comprometemos a utilizar ingredientes de la más alta calidad en todos nuestros productos.</li>
+            <li>Innovación: Buscamos constantemente mejorar y diversificar nuestra oferta de productos saludables.</li>
+            <li>Sostenibilidad: Promovemos prácticas sostenibles en todas nuestras operaciones.</li>
+            <li>Integridad: Actuamos con honestidad y transparencia en todas nuestras relaciones.</li>
+            <li>Salud y Bienestar: Nos preocupamos por la salud y el bienestar de nuestros clientes y comunidad.</li>
+        </ul>
+        
+        <h3>Quiénes Somos</h3>
+        <p>Somos una empresa comprometida con la salud y el bienestar, ofreciendo galletas y productos horneados que combinan nutrición y sabor excepcional.</p>
+    </div>
+
+    <div class="container">
+        <div class="product" onclick="showDetails(&#39;cacahuate-platano&#39;)">
+            <img src="./galletas diferentes_files/galletacacahuateyplatano.jpeg" alt="Galleta de Cacahuate con Plátano">
+            <div class="product-details">
+                <h2>Galleta de Cacahuate con Plátano</h2>
+                <p>Precio: $20</p>
+                <p>Ingredientes: Cacahuate, plátano, amaranto, arándano, ajonjolí negro y blanco.</p>
+            </div>
+        </div>
+        <div class="product" onclick="showDetails(&#39;coco-canela&#39;)">
+            <img src="./galletas diferentes_files/galletacoco.jpeg" alt="Galleta de Coco">
+            <div class="product-details">
+                <h2>Galleta de Coco</h2>
+                <p>Precio: $20</p>
+                <p>Ingredientes: Coco, canela, amaranto, nuez, ajonjolí blanco y negro.</p>
+            </div>
+        </div>
+        <div class="product" onclick="showDetails(&#39;manzana&#39;)">
+            <img src="./galletas diferentes_files/galletasemillas.jpeg" alt="Galleta de Manzana">
+            <div class="product-details">
+                <h2>Galleta de Manzana</h2>
+                <p>Precio: $20</p>
+                <p>Ingredientes: Manzana, pepita de calabaza, amaranto, cacahuate, ajonjolí negro y blanco.</p>
+            </div>
+        </div>
+        <div class="product" onclick="showDetails(&#39;platano&#39;)">
+            <img src="./galletas diferentes_files/galletaplatano.jpeg" alt="Galleta de Plátano">
+            <div class="product-details">
+                <h2>Galleta de Plátano</h2>
+                <p>Precio: $20</p>
+                <p>Ingredientes: Plátano, amaranto, ajonjolí negro y blanco, arándano</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="details-cacahuate-platano" class="hidden details-container">
+        <h2>Galleta de Cacahuate con Plátano</h2>
+        <p>Deliciosa galleta de Plátano con Cacahuate</p>
+      <p>Precio: $20</p>
+        <p>Contenido: 5 piezas por paquete</p>
+        <p>Ingredientes: Cacahuate, plátano, amaranto, arándano, ajonjolí negro y blanco</p>
+        <p class="availability available">Disponibilidad: Disponible</p>
+        <p>Opciones de envío: Envío estándar, Envío exprés</p>
+        <button onclick="showOrderForm(&#39;Galleta de Cacahuate con Plátano&#39;)">Ordenar Ahora</button>
+    </div>
+
+    <div id="details-coco-canela" class="hidden details-container">
+        <h2>Galleta de Coco</h2>
+        <p>Deliciosa galleta de Coco.</p>
+        <p>Precio: $20</p>
+        <p>Contenido: 5 piezas por paquete</p>
+        <p>Ingredientes: Coco, canela, amaranto, nuez, ajonjolí blanco, ajonjolí negro</p>
+        <p class="availability available">Disponibilidad: Disponible</p>
+        <p>Opciones de envío: Envío estándar, Envío exprés</p>
+        <button onclick="showOrderForm(&#39;Galleta de Coco&#39;)">Ordenar Ahora</button>
+    </div>
+
+    <div id="details-manzana" class="hidden details-container">
+        <h2>Galleta de Manzana</h2>
+        <p>Deliciosa galleta de manzana con pepita de calabaza.</p>
+        <p>Precio: $20</p>
+        <p>Contenido: 5 piezas por paquete</p>
+        <p>Ingredientes: Manzana, pepita de calabaza, ajonjolí negro, ajonjolí blanco, amaranto</p>
+        <p class="availability available">Disponibilidad: Disponible</p>
+        <p>Opciones de envío: Envío estándar, Envío exprés</p>
+        <button onclick="showOrderForm(&#39;Galleta de Manzana&#39;)">Ordenar Ahora</button>
+    </div>
+
+    <div id="details-platano" class="hidden details-container">
+        <h2>Galleta de Plátano</h2>
+        <p>Deliciosa galleta de plátano.</p>
+        <p>Precio: $20</p>
+        <p>Contenido: 5 piezas por paquete</p>
+        <p>Ingredientes: Plátano, amaranto, ajonjolí negro y blanco, arándano</p>
+        <p class="availability available">Disponibilidad: Disponible</p>
+        <p>Opciones de envío: Envío estándar, Envío exprés</p>
+        <button onclick="showOrderForm(&#39;Galleta de Plátano&#39;)">Ordenar Ahora</button>
+    </div>
+
+    <div id="order-form" class="hidden form-container">
+        <h2>Formulario de Pedido</h2>
+        <form id="order-form-details">
+            <div class="form-group">
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name" required="">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="email" required="">
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono de Contacto</label>
+                <input type="tel" id="phone" name="phone" required="">
+            </div>
+            <div class="form-group">
+                <label for="products">Productos Seleccionados</label>
+                <ul id="selected-products"></ul>
+            </div>
+            <div class="form-group">
+                <label for="address">Dirección de Envío</label>
+                <textarea id="address" name="address" required=""></textarea>
+            </div>
+            <div class="form-group">
+                <label for="payment-method">Método de Pago</label>
+                <select id="payment-method" name="payment-method" required="">
+                    <option value="">Seleccione un método de pago</option>
+                    <option value="tarjeta">Tarjeta de Crédito/Débito</option>
+                    <option value="transferencia">Transferencia Bancaria</option>
+                    <option value="contraentrega">Pago Contra Entrega</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="quantity">Cantidad por Producto</label>
+                <ul id="product-quantities"></ul>
+            </div>
+            <div class="form-group">
+                <button type="submit" onclick="sendOrder(event)">Enviar Pedido</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./galletas diferentes_files/email.min.js.descarga"></script>
+    <script>
+        (function () {
+            emailjs.init("Delicias sin Limites"); // Reemplaza "user_youruserid" por tu User ID de EmailJS
+        })();
+
+        function showDetails(productId) {
+            // Oculta todos los contenedores de detalles
+            var detailsContainers = document.getElementsByClassName("details-container");
+            for (var i = 0; i < detailsContainers.length; i++) {
+                detailsContainers[i].classList.add("hidden");
+            }
+
+            // Muestra el contenedor de detalles específico
+            var detailsContainer = document.getElementById("details-" + productId);
+            detailsContainer.classList.remove("hidden");
+        }
+
+        function showOrderForm(productName) {
+            // Muestra el formulario de pedido
+            var orderForm = document.getElementById("order-form");
+            orderForm.classList.remove("hidden");
+
+            // Actualiza el listado de productos seleccionados
+            var selectedProductsList = document.getElementById("selected-products");
+            var productListItem = document.createElement("li");
+            productListItem.textContent = productName;
+            selectedProductsList.appendChild(productListItem);
+
+            // Actualiza el listado de cantidades de productos
+            var productQuantitiesList = document.getElementById("product-quantities");
+            var quantityInput = document.createElement("input");
+            quantityInput.type = "number";
+            quantityInput.name = productName.replace(/\s+/g, '-').toLowerCase();
+            quantityInput.placeholder = "Cantidad";
+            quantityInput.min = "1";
+            quantityInput.required = true;
+            productQuantitiesList.appendChild(quantityInput);
+        }
+
+        function sendOrder(event) {
+            event.preventDefault();
+            var form = document.getElementById("order-form-details");
+
+            // Recolecta los datos del formulario
+            var formData = {
+                name: form.name.value,
+                email: form.email.value,
+                phone: form.phone.value,
+                address: form.address.value,
+                paymentMethod: form.payment-method.value,
+                products: [],
+                quantities: []
+            };
+
+            // Recolecta los productos seleccionados y sus cantidades
+            var productQuantities = document.querySelectorAll("#product-quantities input");
+            productQuantities.forEach(function (input) {
+                var productName = input.name.replace(/-/g, ' ');
+                formData.products.push(productName);
+                formData.quantities.push(input.value);
+            });
+
+            // Configura el mensaje a enviar con EmailJS
+            var message = {
+                from_name: formData.name,
+                to_name: "Delicias sin Límites",
+                message_html: `
+                    <p>Correo Electrónico: ${formData.email}</p>
+                    <p>Teléfono de Contacto: ${formData.phone}</p>
+                    <p>Dirección de Envío: ${formData.address}</p>
+                    <p>Método de Pago: ${formData.paymentMethod}</p>
+                    <p>Productos Seleccionados:</p>
+                    <ul>
+                        ${formData.products.map((product, index) => <li>${product}: ${formData.quantities[index]}</li>).join('')}
+                    </ul>
+                `
+            };
+
+            // Envía el formulario usando EmailJS
+            emailjs.send("Delicias sin Limites", "template_Deliciaa sin Limites", message)
+                .then(function (response) {
+                    console.log("Éxito!", response.status, response.text);
+                    alert("¡Pedido enviado con éxito! Nos pondremos en contacto contigo pronto.");
+                    form.reset();
+                    document.getElementById("selected-products").innerHTML = "";
+                    document.getElementById("product-quantities").innerHTML = "";
+                    document.getElementById("order-form").classList.add("hidden");
+                }, function (error) {
+                    console.log("Error...", error);
+                    alert("Ocurrió un error al enviar el pedido. Por favor, inténtalo de nuevo más tarde.");
+                });
+        }
+    </script>
+
+</body></html>
